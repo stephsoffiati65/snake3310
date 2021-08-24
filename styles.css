@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Joystix";
+    src: url("/joystix.ttf") format("truetype");
+}
+body {
+    text-align: center;
+    overflow: hidden;
+    background: url(images/nokia-3310.png) no-repeat top;
+    font-family: 'Joystix';
+}
+
+h1 {
+    color: rgb(38, 0, 255);
+    text-decoration: underline;
+}
+
+img {
+    width: 100px;
+}
+
+canvas {
+    box-sizing: border-box;
+    width: 95%;
+    border: thick double;
+    background-color: #52723F;
+    margin-top: 10px;
+}
+
+ div{
+    width: 377px;
+    height: 265px;
+    border-radius: 20px ;
+    margin: auto;
+    margin-top: 400px;
+    background-color: #52723F; 
+    position: relative;    
+}
+
+img{
+    width: 377px;
+    height: 265px;
+    border-radius: 20px ;
+    position: absolute;
+    left: 0 ;
+}
+
+
+
