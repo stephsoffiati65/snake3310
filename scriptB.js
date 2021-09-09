@@ -133,8 +133,6 @@
                 case "up":
                     nextPosition[1]--;
                     break;
-                default:
-                    throw ("Invalid Direction");
             }
             this.body.unshift(nextPosition);
             if(!this.ateApple){
@@ -154,8 +152,6 @@
                 case "up":
                     allowedDirections = ["left", "right"];
                     break;
-                default:
-                    throw ("Invalid Direction");
             }
             if (allowedDirections.indexOf(newDirection) > -1) {
                 this.direction = newDirection;
